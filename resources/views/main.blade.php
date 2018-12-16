@@ -17,9 +17,7 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cinzel:regular,700,900|Merriweather:300,300italic,regular,italic,700,700italic,900,900italic|Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic|Raleway:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,latin-ext,vietnamese,cyrillic,devanagari,cyrillic-ext,greek-ext,greek"
     type="text/css">
     <link rel="stylesheet" href="css/app.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
   <base href="/">
@@ -36,10 +34,11 @@
   </div>
 </header>
 
-
+<div class='content'>
     @yield('content')
+</div>
 
-    <footer>
+<footer>
   <div class='container'>
     <div class='row'>
       <div class='col-sm-6 offset-sm-3 text-center text-1 pt-4 pb-4'>

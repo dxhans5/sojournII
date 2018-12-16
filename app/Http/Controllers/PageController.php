@@ -15,4 +15,14 @@ class PageController extends Controller
     {
         return view('pages.home');
     }
+
+    /**
+     * Show the rules page
+     *
+     * @return View
+     */
+    public function rules()
+    {
+        return view('pages.rules');
+    }
 }

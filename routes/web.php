@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PageController@homepage')->name('home');
+Route::get('/rules', 'PageController@rules')->name('rules');

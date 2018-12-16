@@ -6,15 +6,26 @@ body a:focus {
   color: inherit;
 }
 
-body {
+body, html {
   margin: 0;
+  height:100%;
+}
+
+body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #000;
+  background-color: #000000;
+  display:flex;
+  min-height:100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
 }
 
 div {
@@ -269,9 +280,12 @@ ul {
   }
   
   footer {
-    color: #434f53;
-    display: block;
-    background-color: #000;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    bottom: 0;
+    background-color: #000000;
+    z-index: 1;
   }
   
   header {
